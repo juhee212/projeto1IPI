@@ -8,40 +8,40 @@
     <title>Produtos</title>
 </head>
 <body>
-    <!-- barra de navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Barra de navegação superior -->
+    <nav class="navbar">
         <a class="navbar-brand" href="#"><img class="logo" src="source/img/logocompleto.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="#">Produtos <span class="sr-only">(current)</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Quem somos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Ajuda</a></li>
+        <div class="links-navbar flex">
+            <ul class="menu flex">
+                <li class="item-menu"><a class="link-menu" href="#">Produtos</a></li>
+                <li class="item-menu"><a class="link-menu" href="#">Quem somos</a></li>
+                <li class="item-menu"><a class="link-menu" href="#">Ajuda</a></li>
             </ul>
-            <button type="button" class="btn btn-light border"><a href="login.html">Entrar</a></button>
-            <button type="button" class="btn btn-light border"><a href="cadastrar.html">Cadastrar</a></button>
+            <button class="botao"><a href="login.html">Entrar</a></button>
+            <button class="botao"><a href="cadastrar.html">Cadastrar</a></button>
             <a class="carrinho" href="carrinho.html">
                 <img src="source/img/carrinho.png" alt="">
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-danger">99+</span>
+                <span class="balanco">99+</span>
             </a>
         </div>
     </nav>
-    <!-- barra de navegação inferior - Lembrar de mudar a depender da página -->
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="produtos.html">Produtos</a></li>
+    <!-- Barra de navegação inferior -->
+    <nav class="navegacao">
+        <ol>
+            <li><a href="index.html">Início</a></li>
+            <li class="barra">|</li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li class="barra">|</li>
+            <li><a href="carrinho.html">Carrinho</a></li>
         </ol>
     </nav>
     
     <!-- Produtos -->
     <div class="container">
         <!-- Produtos -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card product-card">
+        <div class="">
+            <div>
+                <div class="">
                     <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
                     <div class="card-body">
                         <h5 class="card-title">Red dead redemption</h5>
@@ -50,27 +50,7 @@
                         <button class="cart-button"><img src="source/img/carrinho-preto.png" alt="Carrinho" class="cart-icon"></button>
                     </div>
                 </div>
-                <div class="card product-card">
-                    <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
-                    <div class="card-body">
-                        <h5 class="card-title">Red dead redemption</h5>
-                        <p class="text-muted previous-price">R$ 99,90</p>
-                        <p class="card-text current-price" style="font-weight: bold; color: #d9534f;">R$ 79,90</p>
-                        <button class="cart-button"><img src="source/img/carrinho-preto.png" alt="Carrinho" class="cart-icon"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card product-card">
-                    <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
-                    <div class="card-body">
-                        <h5 class="card-title">Red dead redemption</h5>
-                        <p class="text-muted previous-price">R$ 99,90</p>
-                        <p class="card-text current-price" style="font-weight: bold; color: #d9534f;">R$ 79,90</p>
-                        <button class="cart-button"><img src="source/img/carrinho-preto.png" alt="Carrinho" class="cart-icon"></button>
-                    </div>
-                </div>
-                <div class="card product-card">
+                <div class="">
                     <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
                     <div class="card-body">
                         <h5 class="card-title">Red dead redemption</h5>
@@ -80,8 +60,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card product-card">
+            <div>
+                <div class="">
                     <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
                     <div class="card-body">
                         <h5 class="card-title">Red dead redemption</h5>
@@ -90,7 +70,27 @@
                         <button class="cart-button"><img src="source/img/carrinho-preto.png" alt="Carrinho" class="cart-icon"></button>
                     </div>
                 </div>
-                <div class="card product-card">
+                <div class="">
+                    <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Red dead redemption</h5>
+                        <p class="text-muted previous-price">R$ 99,90</p>
+                        <p class="card-text current-price" style="font-weight: bold; color: #d9534f;">R$ 79,90</p>
+                        <button class="cart-button"><img src="source/img/carrinho-preto.png" alt="Carrinho" class="cart-icon"></button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="">
+                    <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
+                    <div class="card-body">
+                        <h5 class="card-title">Red dead redemption</h5>
+                        <p class="text-muted previous-price">R$ 99,90</p>
+                        <p class="card-text current-price" style="font-weight: bold; color: #d9534f;">R$ 79,90</p>
+                        <button class="cart-button"><img src="source/img/carrinho-preto.png" alt="Carrinho" class="cart-icon"></button>
+                    </div>
+                </div>
+                <div class="">
                     <img src="source/img/rdr.jpg" class="card-img-top" alt="Produto">
                     <div class="card-body">
                         <h5 class="card-title">Red dead redemption</h5>
