@@ -1,0 +1,230 @@
+body {
+    margin: 0; /* Remove margens do body */
+    padding: 0; /* Remove padding do body */
+}
+.logo{
+    width: 170px;
+}
+.slide{
+    width: 50%;
+    margin: 150px;
+}
+.carrinho{
+    margin: 20px;
+    width:auto
+}
+.carrinho img{
+    width: 50px;
+}
+.container {
+    width: 100%; 
+    max-width: 400px; 
+    margin-left: 0; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column; 
+}
+.flex{
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+.finalizar {
+    margin-top: 10px;     
+}
+.coupon-group {
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+}
+
+/* Card */
+.product-card {
+    position: relative;
+    margin: 20px;
+}
+.cart-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+}
+.cart-icon {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px;
+} 
+
+
+/* teste */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.links-navbar {
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item-menu {
+    margin-right: 15px;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+}
+
+.botao {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.botao a {
+    text-decoration: none;
+    color: black;
+}
+
+.carrinho {
+    position: relative;
+}
+
+.balanco {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.navegacao {
+    background: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.navegacao ol {
+    list-style: none;
+    padding: 0;
+}
+
+.navegacao li {
+    display: inline;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.cartao {
+    max-width: 540px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+.conteudo-cartao {
+    display: flex;
+}
+
+.imagem-cartao {
+    width: 150px;
+}
+
+.corpo-cartao {
+    padding: 10px;
+}
+
+.titulo-cartao {
+    margin: 0;
+}
+
+.descricao-cartao {
+    margin: 5px 0;
+}
+
+.preco-anterior {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.preco-atual {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.container-valores {
+    padding: 20px;
+}
+
+.linha-valor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grupo-cupom {
+    margin-top: 10px;
+}
+
+.grupo-cupom input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.botao-finalizar {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Classe reutilizável para flex */
+.flex {
+    display: flex;
+}
+
+/* Adicionando alinhamento à esquerda */
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    /* display: flex; */
+    justify-content: flex-start; /* Alinha à esquerda */
+    padding: 20px; /* Espaçamento interno */
+}
+.container {
+    display: flex; 
+    justify-content: flex-start; /* Alinha à esquerda */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.coluna {
+    flex: 1; /* Cada coluna ocupa o mesmo espaço */
+    margin: 10px; /* Espaçamento entre colunas */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd; /* Borda opcional */
+    border-radius: 5px; /* Bordas arredondadas */
+}

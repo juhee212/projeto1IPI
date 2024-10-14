@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/main.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#"><img class="logo" src="source/img/logocompleto.png" alt=""></a>
+        <div class="links-navbar flex">
+            <ul class="menu flex">
+                <li class="item-menu"><a class="link-menu" href="#">Produtos</a></li>
+                <li class="item-menu"><a class="link-menu" href="#">Quem somos</a></li>
+                <li class="item-menu"><a class="link-menu" href="#">Ajuda</a></li>
+            </ul>
+            <button class="botao"><a href="login.html">Entrar</a></button>
+            <button class="botao"><a href="cadastrar.html">Cadastrar</a></button>
+            <a class="carrinho" href="carrinho.html">
+                <img src="source/img/carrinho.png" alt="">
+                <span class="balanco">99+</span>
+            </a>
+        </div>
+    </nav>
+
+    <nav class="navegacao">
+        <ol>
+            <li><a href="index.html">Início</a></li>
+            <li class="barra">|</li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li class="barra">|</li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <!-- Coluna de info -->
+        <div class="coluna-info">
+            <h4>Dados pessoais</h4>
+            <label>Nome completo</label>
+            <input type="text">
+
+            <label>Telefone</label>
+            <input type="text">
+
+            <div class="flex">
+                <label>Cidade</label>
+                <input type="text">
+
+                <label>Estado</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <!-- Coluna com os produtos da sacola -->
+        <div class="coluna-produtos">
+            <div class="cartao">
+                <div class="conteudo-cartao">
+                    <img src="source/img/rdr.jpg" class="imagem-cartao" alt="...">
+                    <div class="corpo-cartao">
+                        <h5 class="titulo-cartao">Red Dead Redemption</h5>
+                        <p class="descricao-cartao">Ano 2024 - edição beta.</p>
+                        <p class="preco-anterior">R$ 99,90</p>
+                        <p class="preco-atual">R$ 79,90</p>                   
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex">
+                    <p>Valor total</p><span>R$ 2,00</span>
+                </div>
+                <div class="flex">
+                    <p>Taxas</p><span>R$ 2,00</span>
+                </div>
+                <div class="flex">
+                    <p>Desconto Loja</p><span>R$ 2,00</span>
+                </div>
+                <div class="flex">
+                    <p>Desconto Cupom</p><span>R$ 2,00</span>
+                </div>
+
+                <div class="coupon-group">
+                    <input type="text" placeholder="Cupom de desconto">
+                    <button>Adicionar</button>
+                </div>
+
+                <button class="finalizar botao-finalizar">Finalizar compra</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
