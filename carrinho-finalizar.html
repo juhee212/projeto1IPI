@@ -20,7 +20,7 @@
             <button class="botao"><a href="cadastrar.html">Cadastrar</a></button>
             <a class="carrinho" href="carrinho.html">
                 <img src="source/img/carrinho.png" alt="">
-                <span class="balanco">99+</span>
+                <span class="quantidade">99+</span>
             </a>
         </div>
     </nav>
@@ -38,25 +38,48 @@
     <div class="container">
         <!-- Coluna de info -->
         <div class="coluna-info">
-            <h4>Dados pessoais</h4>
-            <label>Nome completo</label>
-            <input type="text">
+            <div>
+                <h4>Dados pessoais</h4>
+                <div class="nome">
+                    <label>Nome completo</label>
+                    <input type="text">
+                </div>
 
-            <label>Telefone</label>
-            <input type="text">
+                <div class="telefone">
+                    <label>Telefone</label>
+                    <input type="text">
+                </div>
 
-            <div class="flex">
-                <label>Cidade</label>
-                <input type="text">
+                <div>
+                    <label>Cidade</label>
+                    <input type="text">
 
-                <label>Estado</label>
-                <input type="text">
+                    <label>Estado</label>
+                    <input type="text">
+                </div>
+                <button class="finalizar">Salvar</button>
             </div>
-            <button class="finalizar botao-finalizar center">Finalizar compra</button>
+            <div class="pagamento">
+                <h4>Escolha a forma de pagamento</h4>
+                <div class="img1">
+                    <input type="radio" name="" id="">
+                    <img src="source/img/boleto.png" alt="">
+                </div>
+                <div class="img2">
+                    <input type="radio" name="" id="">
+                    <img src="source/img/cartao.png" alt="">
+                </div>
+                <div class="img3">
+                    <input type="radio" name="" id="">
+                    <img src="source/img/pix.png" alt="">
+                </div>
+            </div>
+            
+            <button class="finalizar">Finalizar compra</button>
         </div>
 
         <!-- Coluna com os produtos da sacola -->
-        <div class="coluna-produtos">
+        <div class="coluna-produtos-finalizar">
             <div class="cartao">
                 <div class="conteudo-cartao">
                     <img src="source/img/rdr.jpg" class="imagem-cartao" alt="...">
@@ -83,10 +106,6 @@
                     <p>Desconto Cupom</p><span>R$ 2,00</span>
                 </div>
 
-                <div class="coupon-group">
-                    <input type="text" placeholder="Cupom de desconto">
-                    <button>Adicionar</button>
-                </div>
             </div>
         </div>
     </div>
