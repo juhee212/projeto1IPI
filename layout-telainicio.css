@@ -1,0 +1,179 @@
+* {
+  text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
+/* header */
+.navdiv {
+  height: 40px;
+  background-color: #2a2a2a;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.logo {
+  width: 150px;
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 25px;
+  margin-left: 25px;
+  justify-content: center;
+}
+
+button{
+  background-color: #53bf86;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: #53bf86;
+  border-style: solid;
+  padding: 5px;
+  width: 90px;
+
+
+}
+
+button a{
+  color: black; font-weight: bold; font-size: 15px;
+} 
+
+/* nav bottom */
+.navbottom {
+  background-color: #545454;
+  height: 22px;
+  padding: 1px;
+  padding-left: 10px;
+  
+}
+
+
+
+/* end nav bottom */
+ 
+/* end header */
+
+
+
+
+/* layout game row */
+
+.row-produtos::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+
+.produtos {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #949494;
+  border-radius: 5px;
+  
+  
+}
+
+.coluna-produto {
+  margin: 5px;
+  background-color: #545454;
+  border: 1px solid #949494;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  position: relative;
+  padding: 27px;
+  padding-top: -50px;
+  
+}
+
+.img-poster {
+  width: 300px;
+}
+
+.img-card {
+  width: 40px; 
+  height: 40px;
+}
+
+
+
+
+.coluna-produto h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price-before {
+  text-decoration: line-through;
+  text-align: left; 
+  color:white; 
+  font-weight: bold;
+  
+
+}
+
+.price {
+  position: absolute;
+  text-align: left; 
+  bottom: 20px;
+  color:white; 
+  font-weight: bold;
+}
+
+.carrinho-button {
+position: absolute;
+bottom: 20px;
+right: -5px;
+background: transparent;
+border: none;
+cursor: pointer;
+}
+
+/* end layout end row */
+
+
+/* footer */
+
+
+.navfooter {
+  position: fixed;
+  background-color: #545454;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 20px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.foot-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* end footer */
