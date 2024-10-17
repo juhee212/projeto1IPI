@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWILIGHT GAMES</title>
-    <script src="script-carousel.js" defer></script>
+    <script src="telaproduto-slide.js" defer></script>
     <link rel="stylesheet" href="layout-telaproduto.css">
+    
     
 
     
@@ -24,7 +25,7 @@
       <ul>
           <li><a href="telainicial.html">Loja</a></li>
           <li><a href=>Suporte</a></li>
-          <li><a href="">Meu Carrinho</a></li>
+          <li><a href="carrinho.html">Meu Carrinho</a></li>
           <button class="navbut"><a href="login.html">Login</a></button>
           <button class="navbut"><a href="cadastrar.html">Cadastrar</a></button>
       </ul>
@@ -33,19 +34,23 @@
   </div>
 </header>
 
-<!-- nav bottom -->
-<nav class="navbottom">
-  <div class="navcar">  
-    
-  </div>
-</div>
-<!-- nav bottom -->
+
 
 
 <!-- end header -->
 
 
 <body>
+
+
+<!-- search bar -->
+
+  <nav class="search-bar">
+    <div class="search-div"><input type="text" placeholder="Search.." class="s-bar"></div>
+  </nav>
+  
+<!-- end search bar -->
+
 
 <!-- game info -->
 <div class="game-box">
@@ -70,7 +75,32 @@
 <!-- end game info -->
 
 
+<!-- slide box -->
 
+<div class="slide-box">
+
+    <section aria-label="poster-imgs">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#10508;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#10509;</button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="img/TW1.jpg" alt="">
+          </li>
+          <li class="slide">
+            <img src="img/TW2.jpg" alt="">
+          </li>
+          <li class="slide">
+            <img src="img/TW3.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+</div>
+
+
+<!-- end slide box -->
 
 
 </body>
@@ -82,9 +112,8 @@
 
   <nav class="navfooter">
     <div class="navfot">  
-      <p class="foot-text"></p>
     </div>
-  </div>
+  </nav>
 
 
 </footer>
