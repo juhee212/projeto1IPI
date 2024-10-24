@@ -1,0 +1,228 @@
+
+
+* {
+  text-decoration: none;
+  
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(180deg, #251a5e 25%, #13161a 75%);
+    overflow: auto;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #212429;
+  border-radius: 5px;
+}
+
+/* end scrollbar */
+
+
+
+/* header */
+.navdiv {
+  height: 40px;
+  background-image: linear-gradient(#13161a 90%, #251a5e);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.logo {
+  width: 150px;
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 25px;
+  margin-left: 25px;
+  justify-content: center;
+}
+
+button{
+  background-color: #53bf86;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: #53bf86;
+  border-style: solid;
+  padding: 5px;
+  width: 90px;
+
+
+}
+
+button a{
+  color: black; font-weight: bold; font-size: 15px;
+} 
+
+
+ 
+/* end header */
+
+
+
+/* search bar */
+.search-bar{
+  background-color: #3f4246;
+  width: 600px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border-color: #2b2d31;
+  border-style: solid;
+  margin-top: 30px;
+  text-align: right;
+
+}
+
+.search-div {
+  padding-top: 4px;
+  padding-right: 15px;
+  align-items: center;
+}
+
+.s-bar {
+  background: transparent;
+}
+/* end search bar */
+
+
+
+/* layout game row */
+
+.row-produtos::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+
+.produtos {
+  width: 1115px;
+  height: 730px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #3f4246;
+  border-radius: 10px;
+  border: 5px solid #2b2d31;
+  overflow: auto;
+  
+ 
+    
+}
+
+
+.coluna-produto {
+  margin: 5px;
+  background-color: #2b2d31;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  position: relative;
+  padding: 27px;
+  padding-top: -50px;
+  
+  
+}
+
+.img-poster {
+  width: 300px;
+}
+
+.img-card {
+  width: 40px; 
+  height: 40px;
+}
+
+
+
+
+.coluna-produto h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price-before {
+  text-decoration: line-through;
+  text-align: left; 
+  color:white; 
+  font-weight: bold;
+  
+
+}
+
+.price {
+  position: absolute;
+  text-align: left; 
+  bottom: 20px;
+  color:white; 
+  font-weight: bold;
+}
+
+.carrinho-button {
+position: absolute;
+bottom: 20px;
+right: -5px;
+background: transparent;
+border: none;
+cursor: pointer;
+}
+
+/* end layout end row */
+
+
+/* footer */
+
+
+.navfooter {
+  position: fixed;
+  background-color: #13161a;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 20px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.foot-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* end footer */
