@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWILIGHT GAMES - LOGIN</title>
     <link rel="stylesheet" href="layout-login.css">
+    <script src="layout-java.js" defer></script>
+    
 </head>
 
 
@@ -39,7 +41,7 @@
             <img src="img/FlyLogo.png" class="logo-box" alt="Logo">
             
 
-            <form>
+            <form class="login-form" action="telainicial.html">
 
                 <h1>Login</h1>
 
@@ -49,14 +51,24 @@
 
 
                 <button class="entrar-button" type="submit">Entrar</button><a href="telainicial.html"></a>
-                <p class="p-esqueceu">Esqueceu a senha?</p>
+                
                 
 
             </form>
 
+            <p class="p-esqueceu" onclick="openForm()">Esqueceu a senha?</p>
+
+        <div class="form-popup" id="esq-senha">
             
-            
-        
+            <form  class="esqueceu-form">
+
+                <h2>Redefinir senha</h2>
+                <input type="email" placeholder="E-mail" class="esq-input">
+                <input type="submit" class="sendemail-input">
+
+            </form>
+ 
+        </div>
             
     </div>
 
