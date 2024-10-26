@@ -93,21 +93,13 @@ button a{
       
   }
 
-  .navlog {
-  
-  width: 200px;
-  height: 500px;
-  margin: auto;
-  margin-top: 50px;
- }
-
-
 
   .logo-box {
       width: 120px;
       display: block;
       margin: auto;
       padding-top: 5px;
+      margin-top: 50px;
       
   }
 
@@ -120,14 +112,31 @@ button a{
       color:rgb(255, 255, 255); 
       font-family:Arial, Helvetica, sans-serif;
       
+      
   }
 
   form {
 
-      text-align: center;
+      
       color:rgb(255, 255, 255);
+      text-align: center;
   }
 
+  ::placeholder {
+    color: black;
+  }
+  
+  .input-layout {
+    border-radius: 5px;
+    border-style: solid;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 200px;
+  }
+  
+
+ 
+  
   .p-button {
      text-align: center;
       
@@ -135,19 +144,19 @@ button a{
 
 
 
-  .entrar-button{
-      margin-top: 20px;
+  .cadastrar-button{
+      margin-top: 10px;
       background-color: #4dbd82;
       border-radius: 10px;
       border-color: #4dbd82;
       border-style: solid;
-  }
-
-  button a {
+      width: 150px;
       color: white;
+      font-size: 14px;
       font-weight: bold;
   }
 
+ 
 /* end login box */
 
 
