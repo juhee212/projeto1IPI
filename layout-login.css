@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 html {
   height: 100%;
@@ -430,3 +431,250 @@ label{
   width: 110px;
 }
 
+=======
+
+html {
+  height: 100%;
+}
+
+*{
+  text-decoration: none;
+  
+   
+    }
+
+ body {
+        background-image: linear-gradient(180deg, #251a5e 25%, #13161a 75%);
+        margin: 0;
+        
+    }
+
+
+
+
+
+
+/* header */
+.navdiv {
+  height: 40px;
+  background-image: linear-gradient(#13161a 90%, #251a5e);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.logo {
+  width: 150px;
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 25px;
+  margin-left: 25px;
+  justify-content: center;
+}
+
+button{
+  background-color: #53bf86;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: #53bf86;
+  border-style: solid;
+  padding: 5px;
+  width: 90px;
+
+
+}
+
+button a{
+  color: black; font-weight: bold; font-size: 15px;
+} 
+
+
+
+/* end header */
+
+
+
+
+
+  
+/* login box */
+
+
+
+.login-box {
+  
+  margin:  0 auto;
+  margin-top: 120px;
+  width: 400px;
+  height: 600px;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  border: 5px solid #2b2d31;
+  
+  
+  
+}
+
+.logo-box {
+  width: 120px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color:rgb(255, 255, 255); 
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.login-form {
+
+  text-align: center;
+  color:rgb(255, 255, 255);
+  padding: 5px;
+  margin: auto;
+  margin-top: 20px; 
+  
+}
+
+::placeholder {
+  color: black;
+}
+
+.input-layout {
+  border-radius: 5px;
+  border-style: solid;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 200px;
+  
+}
+
+.label-layout {
+  font-size: 16px;
+}
+
+
+.entrar-button{
+  background-color: #4dbd82;
+  border-radius: 10px;
+  border-color: #4dbd82;
+  border-style: solid;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100px;
+   
+}
+
+
+/* end login box */
+
+
+
+
+/* esqueceu senha box */
+
+
+
+.p-esqueceu {
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  
+  color:rgb(255, 255, 255); 
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.esq-input {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.sendemail-input {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  background-color: #4dbd82;
+}
+
+
+
+.form-popup {
+  display: none;
+  position: relative;
+  border: 3px solid #2b2d31;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  
+}
+
+
+.esqueceu-form {
+  background-color: #13161a;
+  width: 300px;
+  height: 100px;
+  padding-left: 5px;
+  position: fixed;
+  
+  
+}
+
+
+
+/* end esqueceu senha box */
+
+
+
+
+
+/* footer */
+
+
+.navfooter {
+  position: fixed;
+  background-color: #13161a;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 20px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.foot-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* end footer */
+
+>>>>>>> 14070b60d626952620a86b884db2481fe89e78c7
